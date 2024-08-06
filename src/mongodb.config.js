@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const connect = () => {
-  return mongoose.connect("mongodb+srv://root:skyglobal14062024@exchangerateandjobclust.edfobu6.mongodb.net/testingakn?retryWrites=true&w=majority", {
+  return mongoose.connect("change your mongodb url", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
