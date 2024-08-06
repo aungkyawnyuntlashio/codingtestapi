@@ -7,7 +7,7 @@ module.exports = class LoginService {
     }
 
     async login(username, password) {
-        return await this.loginModel.findOne({ username: username, password: password }, { username: 1 });
+        return await this.loginModel.findOne({ username: username, password: password }, { username: 1, _id: 1 });
     }
 
     async register(username, password) {
